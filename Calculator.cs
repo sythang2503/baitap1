@@ -71,17 +71,9 @@ namespace congtrunhanchia
             {
                 double soa = Convert.ToInt32(txta.Text);
                 double sob = Convert.ToInt32(txtb.Text);
-                double kq = soa / sob;
-                if (sob == 0)
-                {
-                    lblkq.Text = "Không thể chia cho 0";
-                }
-                else
-                {
-                    lblkq.Text = soa + " / " + sob + " = " + kq.ToString();
-                }
-                
-                
+                double kq = soa / sob;                
+                lblkq.Text = soa + " / " + sob + " = " + kq.ToString();             
+
             }
             catch (Exception)
             {
