@@ -17,8 +17,6 @@ namespace congtrunhanchia
             InitializeComponent();
         }
 
-        double s1;
-        double s2;
 
         private void btnCong_Click(object sender, EventArgs e)
         {
